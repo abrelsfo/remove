@@ -1,4 +1,4 @@
-## remove
+## Remove
 
 
 > Removes the element at the specified index. I felt splice was didn't read cleanly so I decided to make it cleaner lookin
