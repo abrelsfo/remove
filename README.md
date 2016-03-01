@@ -17,13 +17,13 @@ remove(a, 0);
 ### remove(arr, ind)
 
 ##### arr
-Type: Array
+>Type: Array
 
 ##### ind
-Type: Integer<br>
-Condition: ind must be greater than or equal to 0
-
-Removes the element at the specified index.
+>Type: Integer<br>
+>Condition: ind must be greater than or equal to 0
+>
+>Removes the element at the specified index.
 
 ##License
 
