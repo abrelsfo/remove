@@ -8,8 +8,8 @@
 var remove = require('remove');
 var a = ['A','B','C'];
 
-remove(a, 0);
-//=>['B','C']
+a = remove(a, 0);
+//=>a = ['B','C']
 ```
 
 ## API
