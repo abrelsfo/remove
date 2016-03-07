@@ -1,11 +1,14 @@
-## remove
+##Remove_Index
 
+> Removes the element at the specified index. I felt splice was didn't read cleanly so I decided to make it cleaner looking
 
-> Removes the element at the specified index. I felt splice was didn't read cleanly so I decided to make it cleaner lookin
+## Installation
+
+```npm install remove_index```
 
 ## Usage
 ```js
-var remove = require('remove');
+var remove = require('remove_index');
 var a = ['A','B','C'];
 
 remove(a, 0);
@@ -14,14 +17,14 @@ remove(a, 0);
 
 ## API
 
-### remove(arr, ind)
+### remove_index(arr, ind)
 
 ##### arr
 Type: Array
 
 ##### ind
 Type: Integer<br>
-Condition: Must be greater than or equal to 0
+Condition: ind must be greater than or equal to 0
 
 Removes the element at the specified index.
 
