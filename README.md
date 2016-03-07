@@ -1,6 +1,7 @@
+
 ##Remove_Index
 
-> Removes the element at the specified index. I felt splice was didn't read cleanly so I decided to make it cleaner looking
+> Removes the element at the specified index. I felt splice didn't read cleanly so I decided to make it cleaner looking
 
 ## Installation
 
@@ -11,8 +12,8 @@
 var remove = require('remove_index');
 var a = ['A','B','C'];
 
-remove(a, 0);
-//=>['B','C']
+a = remove(a, 0);
+//=>a = ['B','C']
 ```
 
 ## API
@@ -23,6 +24,7 @@ remove(a, 0);
 Type: Array
 
 ##### ind
+
 Type: Integer<br>
 Condition: ind must be greater than or equal to 0
 
