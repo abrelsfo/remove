@@ -1,6 +1,6 @@
 {
   "name": "remove_index",
-  "version": "0.0.0",
+  "version": "0.0.2",
   "description": "Remove element of array at desired index",
   "main": "remove.js",
   "directories": {

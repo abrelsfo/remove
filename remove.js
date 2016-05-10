@@ -15,10 +15,10 @@ module.exports = function (arr, ind) {
     throw new TypeError('Expected ind to be type int, got float');
   }
 
-  if (ind > -1) {
+  if (arr.length*-1 <= ind && ind < arr.length) {
     arr.splice(ind, 1);
     return arr;
   } else {
-    throw new Error('ind must be greater than 0');
+    throw new Error('Index out of bounds');
   }
 };
